@@ -2,13 +2,13 @@ class Autoversion < Formula
   desc "Automatic versioning tool for your projects"
   homepage "https://github.com/trondhindenes/autoversion"
   license "MIT"
-  version "1.0.56"
+  version "1.0.57"
   if Hardware::CPU.arm?
-    url "https://github.com/trondhindenes/autoversion/releases/download/v1.0.56/autoversion-darwin-arm64.tar.gz"
-    sha256 "11142282a42c4ee0f049fb0430da8ee01d40ff6cab5ba919420d425648c37cda"
+    url "https://github.com/trondhindenes/autoversion/releases/download/v1.0.57/autoversion-darwin-arm64.tar.gz"
+    sha256 "38786fcd771add9a239c6f0a111baed816a7f925b4923637982d914d8ce3d713"
   else
-    url "https://github.com/trondhindenes/autoversion/releases/download/v1.0.56/autoversion-darwin-amd64.tar.gz"
-    sha256 "9bd1202f5854529468c9c6e46d9f9a96f5b1b91fcba96124f75c722a526f5397"
+    url "https://github.com/trondhindenes/autoversion/releases/download/v1.0.57/autoversion-darwin-amd64.tar.gz"
+    sha256 "b6ca5b4d35c14c02486f4209951a6f98b77c215e180078bcda69399a18a55140"
   end
 
   def install
